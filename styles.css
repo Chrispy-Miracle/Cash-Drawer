@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    align-content: center;
+    height: 90vh;
+    width: 90vw;
+    background-image: url("money.jpg");
+    background-color: rgb(248, 239, 239);
+    background-size: 60vw;
+    background-repeat: no-repeat;
+    background-position-x: 15vw;
+    background-position-y: 20vh;
+}
+h1 {
+    color: green;
+    text-shadow: -1px 0 rgb(4, 63, 4), 0 1px rgb(4, 63, 4), 1px 0 rgb(4, 63, 4), 0 -1px rgb(4, 63, 4);
+    font-size: 4vw;
+}
+#container {
+    display: grid;
+    grid-template-areas: 
+        "a b";
+        text-align: center;
+}
+#a {
+    grid-area: a;
+    margin-left: 8vw;
+}
+#b {
+    grid-area: b;
+    margin-right: 8vw;
+}

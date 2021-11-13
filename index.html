@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Drawer</title>
+</head>
+<body>
+    <h1>Cash Drawer</h1>
+    <h2 id="cid">Cash in Drawer: $235.41</h2>
+    <div id="container">
+        <div id="a">
+            <h2>Total Price:</h2>
+            <input type="text" id="price" placeholder="Total Price">
+            <h2>Cash Given:</h2>
+            <input type="text" id="cash" placeholder="Cash Tendered">
+            <button id="butt" onclick="checkCashRegister()">Do it!</button>
+            <h2 id="priceLabel"></h2>
+            <h2 id="cashLabel"></h2>
+        </div>
+        <div id="b">
+            <h2 id="status"></h2>
+            <h2 id="change">Change:</h2>
+            <h2 id="twenties"></h2>
+            <h2 id="tens"></h2>
+            <h2 id="fives"></h2>
+            <h2 id="ones"></h2>
+            <h2 id="quarters"></h2>
+            <h2 id="dimes"></h2>
+            <h2 id="nickels"></h2>
+            <h2 id="pennies"></h2>
+        </div>
+    </div>
+    
+</body>
+</html>
